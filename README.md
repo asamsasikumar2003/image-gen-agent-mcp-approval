@@ -37,3 +37,8 @@ This project demonstrates an autonomous image generation agent that interacts wi
 
 ## 📁 Project Structure
 
+# Request 1 image (auto-approved)
+agent.generate_images(prompt="sunset over mountains", count=1)
+
+# Request 5 images (requires approval)
+agent.generate_images(prompt="futuristic cityscape", count=5)
